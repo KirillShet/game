@@ -8,21 +8,17 @@ namespace ConsoleApp8
 {
     internal class Class1
     {
-        public string name;
+        private string name;
         public int koordinate_x;
         public int koordinate_y;
         public int hp;
-        public int hp1;
         public int kol;
         public int sr_znach;
         public int max_hp;
         public bool lager;
         public int dvig;
         public int naprav;
-        public int raspr;
         public int osh;
-        public int x;
-        public int y;
         public int du;
 
         public void info()
@@ -54,7 +50,6 @@ namespace ConsoleApp8
             Console.WriteLine("Введите количество жизней персонажа: ");
             hp = Convert.ToInt32(Console.ReadLine());
             max_hp = hp;
-            hp1 = hp;
             Console.Clear();
         }
         public string nam()
@@ -64,10 +59,6 @@ namespace ConsoleApp8
         public int kor_x()
         {
             return koordinate_x;
-        }
-        public void kor_x1()
-        {
-            x = koordinate_x;
         }
         public int kor_y()
         {
