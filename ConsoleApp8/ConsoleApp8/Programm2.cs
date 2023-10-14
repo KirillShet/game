@@ -176,8 +176,8 @@ namespace ConsoleApp8
                                     vrag1 = avatar[i].lager3();
                                     if (x1 == x && y1 == y && vrag != vrag1 && avatar[i].hp111() > 0)
                                     {
-                                        avatar[i].damage();
                                         avatar[i].srva();
+                                        avatar[i].damage();
                                     }
                                 }
                                 for (int i = 0; i < avatar.Length; i++)
@@ -237,6 +237,7 @@ namespace ConsoleApp8
                     {
                         if (fight > 0)
                         {
+                            avatar[numb].vost();
                             for (int i = 0; i < avatar.Length; i++)
                             {
                                 x1 = avatar[i].kor_x();
@@ -260,7 +261,7 @@ namespace ConsoleApp8
                                     avatar[i].damage();
                                 }
                             }
-                            avatar[numb].vost();
+                            
                         }
                         else if (fight == 0)
                         {

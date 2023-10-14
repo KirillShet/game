@@ -251,7 +251,6 @@ namespace ConsoleApp8
         }
         public void damage1()
         {
-            Console.WriteLine("Урон наносится рандомно от 1 до 50.");
             Random rand = new Random();
             du = rand.Next(1, 50);
         }
