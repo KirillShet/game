@@ -13,9 +13,7 @@ namespace ConsoleApp8
         {
 
             int osh2 = 0;
-            int kol2 = 0;
             int hp = 0;
-            int summa = 0;
             int vabor = 0;
             int numb = 0;
             int osh = 0;
@@ -148,6 +146,8 @@ namespace ConsoleApp8
                     else if (var == 5)
                     {
                         avatar[numb].ynichtog();
+                        Console.WriteLine("Создайте нового персонажа.");
+                        avatar[numb].info();
                     }
                     /*Бой*/
                     else if (var == 6)
